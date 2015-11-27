@@ -13,7 +13,7 @@ def asignar_arma_simple():
 
 def asignar_arma_doble(estrella, disparo):
     torreta.municion = municion_doble_bala
-    estrella.eliminar()
+    estrella.eliminar()    
     pilas.tareas.siempre(10, asignar_arma_simple)
     pilas.avisar("ARMA MEJORADA")
 
@@ -128,7 +128,7 @@ torreta = pilas.actores.Torreta(municion_bala_simple=municion_bala_simple,
 pilas.tareas.siempre(1, crear_enemigo)
 
 pilas.tareas.siempre(20, reducir_tiempo)
-torreta.aprender(pilas.habilidades.LimitadoABordesDePantalla)
+torreta.aprender('moversecomocoche')
 torreta.aprender(pilas.habilidades.LimitadoABordesDePantalla)
 pilas.colisiones.agregar(torreta, enemigos, perder)
 
