@@ -14,9 +14,14 @@ Descarga la version 1.3.0 de Pilas Engine o una version superior de este link ht
 una vez instalado, ingresa al Editor y abre el archivo sumapuntostorreta.py 
 
 +Modo de juego: 
+
 -teclas:
+
 --flecha arriba (moves el tanque hacia adelante donde apunta el canion)
+
 --flecha abajo (moves el tanque hacia la direccion opuesta donde apunta el canion)
+
 --apuntas con el cursor
+
 --click para disparar
 
